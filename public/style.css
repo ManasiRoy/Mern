@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    padding: 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #2196c6;
+}
+.site-title a {
+    text-decoration: none;
+}
+.site-title a h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    align-self: center;
+}
+nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+nav ul li a {
+    color: #000;
+    font-size: 16px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #fff;
+}
+.blogs.content {
+    padding: 30px 60px;
+    min-height: 600px;
+}
+.blogs.content a {
+    margin-bottom: 20px;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background: #eee;
+    padding: 1rem;
+}
+.blogs.content a h3 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+h2 {
+    color: #000;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.blogs.content a p {
+    color: #000;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+footer {
+    text-align: center;
+    padding: 15px 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-size: 14px;
+    background: #222;
+}
+p {
+    color: #000;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.blogs.content a.deletebtn {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    background: darkred;
+}
+.create-blog.content {
+    padding: 30px 60px;
+    min-height: 600px;
+}
+.create-blog.content label {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+}
+.create-blog.content form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.create-blog.content input,
+.create-blog.content textarea {
+    font-size: 1rem;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+    outline: none;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    width: 100%;
+    resize: vertical;
+}
+.create-blog.content button {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    display: block;
+    outline: none;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    text-align: center;
+    background: #0a6286;
+}
+.about.content {
+    padding: 30px 60px;
+    min-height: 600px;
+}
